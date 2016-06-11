@@ -11,7 +11,7 @@
   ],
   "autoload": {
     "psr-4": {
-      "Wazoomie\\Api\\": ""
+      "Wazoomie\\Support\\": ""
     },
     "files": [
       "functions.php"
