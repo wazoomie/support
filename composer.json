@@ -1,0 +1,25 @@
+{
+  "name": "wazoomie/support",
+  "description": "A Support module for Laravel.",
+  "license": "GNU General Public License v3.0",
+  "homepage": "http://wazoomie.com",
+  "authors": [
+    {
+      "name": "Marc Roosendaal",
+      "email": "wazoomie@outlook.com"
+    }
+  ],
+  "require": {
+    "laravel/laravel": "v4.0.0-BETA4",
+    "illuminate/support": "v4.2.0-BETA1",
+  },
+  "autoload": {
+    "psr-4": {
+      "Wazoomie\\Api\\": ""
+    },
+    "files": [
+      "functions.php"
+    ]
+  },
+  "minimum-stability": "dev"
+}
