@@ -10,8 +10,8 @@
     }
   ],
   "require": {
-    "laravel/laravel": ">=v4.*",
-    "illuminate/support": ">=v4.*"
+    "laravel/laravel": ">=v4.0.0-BETA4",
+    "illuminate/support": ">=v4.2.0-BETA1"
   },
   "autoload": {
     "psr-4": {
