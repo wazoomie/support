@@ -28,3 +28,18 @@ if (!function_exists('location')) {
         return app()->make('Wazoomie\Support\Location', [$latitude, $longitude]);
     }
 }
+
+if (!function_exists('datetime')) {
+
+    /**
+     * Create a new DateTime instace.
+     *
+     * @param null $datetime
+     *
+     * @return Carbon\Carbon
+     */
+    function datetime($datetime = null)
+    {
+        return app()->make('Carbon\Carbon', [$datetime]);
+    }
+}
